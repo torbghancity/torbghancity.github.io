@@ -1,0 +1,52 @@
+table, th, td {
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.diattomic:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+.transition:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+.alkaline:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.alkaline2:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+.metalloid:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.polyatomic:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.noble:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.Ptransition:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.lanthanide:hover {
+    background-color: rgb(102, 226, 102);
+    cursor: pointer;
+}
+.actinide:hover {
+    background-color: rgb(102, 207, 226);
+    cursor: pointer;
+}
+.unknown:hover {
+    background-color: rgb(138, 138, 138);
+    cursor: pointer;
+}
