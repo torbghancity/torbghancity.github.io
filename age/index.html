@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<input type="text" id="t1" onclick="age()" placeholder="لطفا سن خود را به عدد وارد کنید">
+<script>
+  function age()
+  {
+    var a =Number(document.getElementById("t1").value);
+    document.getElementById("t2").innerHTML=a*365
+    document.getElementById("t3").innerHTML=a*52
+    document.getElementById("t4").innerHTML=a*12
+  }
+</script>
+<p>تعداد روز های که زندگی کردین</p>
+<p id="t2"></p>
+<p>تعداد هفته های که زندگی کردین</p>
+<p id="t3"></p>
+<p>تعداد ماه های که زندگی کردین</p>
+<p id="t4"></p>
+<button type="button" onclick="age()">محاسبه</button>
+</body>
+</html>
+
+
