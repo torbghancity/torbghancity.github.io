@@ -5,15 +5,30 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<input type="text" id="t1" onkeypress="age()" placeholder="لطفا سن خود را به عدد وارد کنید">
+<input type="text" id="t1" placeholder="لطفا سن خود را به عدد وارد کنید">
 <script>
   function age()
   {
     var a =Number(document.getElementById("t1").value);
-    document.getElementById("t2").innerHTML=a*365
-    document.getElementById("t3").innerHTML=a*52
-    document.getElementById("t4").innerHTML=a*12
+    var d =a*365
+    var w =a*52
+    var m =a*12
+    var h =d*60
+    var i =h*60
+    var s =h*60
+    document.getElementById("t2").innerHTML=d
+    document.getElementById("t3").innerHTML=w
+    document.getElementById("t4").innerHTML=m
+    document.getElementById("t5").innerHTML=h
+    document.getElementById("t6").innerHTML=i
+    document.getElementById("t7").innerHTML=s
   }
+  document.getElementById("t1").addEventListener("keypress" ,function(event){
+    if(event.keyCode===13){
+     age();
+    }
+    return false;
+  })
 </script>
 <div style="border: 10px double; text-align: center; background-color: rgb(255, 137, 137);color: rgb(73, 24, 252);">
   <p>تعداد روز های که زندگی کردین</p>
@@ -22,6 +37,12 @@
   <p id="t3"></p>
   <p>تعداد ماه های که زندگی کردین</p>
   <p id="t4"></p>
+  <p>تعداد ساعت های که زندگی کردین</p>
+  <p id="t5"></p>
+  <p>تعداد دقیقه های که زندگی کردین</p>
+  <p id="t6"></p>
+  <p>تعداد ثانیه های که زندگی کردین</p>
+  <p id="t7"></p>
 </div>
 <button type="button" onclick="age()">محاسبه</button>
 </body>
