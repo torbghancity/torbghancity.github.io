@@ -16,12 +16,12 @@
     var hours =days*24
     var minutes =hours*60
     var seconds =minutes*60
-    document.getElementById("t2").innerHTML=days
-    document.getElementById("t3").innerHTML=weeks
-    document.getElementById("t4").innerHTML=monthes
-    document.getElementById("t5").innerHTML=hours
-    document.getElementById("t6").innerHTML=minutes
-    document.getElementById("t7").innerHTML=seconds
+    document.getElementById("t2").innerHTML=days+"  "+"روز از تولدتان گذشته است";
+    document.getElementById("t3").innerHTML=weeks+" "+"هفته از تولدتان گذشته است";
+    document.getElementById("t4").innerHTML=monthes+" "+"ماه از تولدتان گذشته است"
+    document.getElementById("t5").innerHTML=hours+" "+"ساعت از تولدتان گذشته است";
+    document.getElementById("t6").innerHTML=minutes+" "+"دقیقه از تولدتان گذشته است";
+    document.getElementById("t7").innerHTML=seconds+" "+"ثانیه از تولدتان گذشته است";
   }
   document.getElementById("t1").addEventListener("keypress" ,function(event){
     if(event.keyCode===13){
@@ -31,17 +31,11 @@
   })
 </script>
 <div style="border: 10px double; text-align: center; background-color: rgb(255, 137, 137);color: rgb(73, 24, 252);">
-  <p>تعداد روز های که زندگی کردین</p>
-  <p id="t2"></p>
-  <p>تعداد هفته های که زندگی کردین</p>
-  <p id="t3"></p>
-  <p>تعداد ماه های که زندگی کردین</p>
   <p id="t4"></p>
-  <p>تعداد ساعت های که زندگی کردین</p>
+  <p id="t3"></p>
+  <p id="t2"></p>
   <p id="t5"></p>
-  <p>تعداد دقیقه های که زندگی کردین</p>
   <p id="t6"></p>
-  <p>تعداد ثانیه های که زندگی کردین</p>
   <p id="t7"></p>
 </div>
 <button type="button" onclick="age()">محاسبه</button>
