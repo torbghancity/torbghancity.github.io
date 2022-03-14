@@ -1,0 +1,25 @@
+.p1 {
+    text-align: center;
+    font-family: titr;
+    font-size: 40px;
+    color: GRAY;
+}
+.p1:hover {
+    text-shadow: 15px 10px 15px rgb(71, 71, 70);
+    color: rgb(255, 250, 250);
+    font-size: 50px;
+    font-family: titr;
+}
+a {
+    color: red;
+}
+a:visited {
+    color: blueviolet;
+}
+button {
+    font-family: Verdana;
+    size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 119, 198);
+    transition: none;
+}
