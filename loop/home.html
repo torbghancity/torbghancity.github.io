@@ -7,19 +7,77 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="number" id="loop" placeholder="لطف یک عدد  بین 1 تا 100 وارد کنید">
+    <input type="number" id="t3" placeholder="لطف یک عدد  بین 1 تا 100 وارد کنید">
     <p id="t1"></p>
+    <p id="t2"></p>
 
 <script>
-var num=Number(document.getElementById("loop").value);
-let text = "";
-function myfun() {
-    for (let i = 1; i < num; i++) {
-    text += "The number is " + i + "<br>";
+
+function even(){
+    var loop =Number(document.getElementById("t3").value);
+    let text = "";
+    for (let i = 0; i <= loop; i=i+2) {
+            text += i + " - ";
+    }
+    document.getElementById("t1").innerHTML = text;
 }
+function odd(){
+    var loop =Number(document.getElementById("t3").value);
+    let text = "";
+    for (let i = 1; i <= loop; i=i+2) {
+            text += i + " - ";
+    }
+    document.getElementById("t1").innerHTML = text;
 }
-document.getElementById("t1").innerHTML = text;
+function Prime(){
+    var loop =Number(document.getElementById("t3").value);
+    let text = "";
+    for (let i = 1; i <= loop; i++) {
+        if (i==1){
+            text += "1 - ";
+        }
+        else if (i==2) {
+            text +="2 - ";
+        }
+        else if (i==3){
+            text += "3 - ";
+        }
+        else if (i==5) {
+            text +="5 - ";
+        }
+        else if (i==7){
+            text += "7 - ";
+        }
+        else if (i==11){
+            text += "11 - ";
+        }
+        else if (i%2===0){
+            
+        }
+        else if (i%3==0){
+            
+        }
+        else if (i%5==0){
+            
+        }
+        else if (i%7==0){
+
+        }
+        else if (i%11==0){
+            
+        }
+        else {
+            text += i + " - ";
+        }
+            
+    }
+    document.getElementById("t1").innerHTML = text;
+}
 </script>
-<button type="button" onclick="myfun()">try it</button>
+<button type="button" onclick="even()">اعداد زوج</button>
+<button type="button" onclick="odd()">اعداد فرد</button>
+<button type="button" onclick="Prime()">اعداد اول</button>
+<br>
+<a href="/index.html">بازگشت به خانه</a>
 </body>
 </html>
