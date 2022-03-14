@@ -33,43 +33,16 @@ function Prime(){
     var loop =Number(document.getElementById("t3").value);
     let text = "";
     for (let i = 1; i <= loop; i++) {
-        if (i==1){
-            text += "1 - ";
+        let flag = 0;
+        for (let j=2; j<i ; j++) {
+            if (i%j==0) {
+                flag = 1;
+            break;
+            }
         }
-        else if (i==2) {
-            text +="2 - ";
-        }
-        else if (i==3){
-            text += "3 - ";
-        }
-        else if (i==5) {
-            text +="5 - ";
-        }
-        else if (i==7){
-            text += "7 - ";
-        }
-        else if (i==11){
-            text += "11 - ";
-        }
-        else if (i%2===0){
-            
-        }
-        else if (i%3==0){
-            
-        }
-        else if (i%5==0){
-            
-        }
-        else if (i%7==0){
-
-        }
-        else if (i%11==0){
-            
-        }
-        else {
+        if(i>1 && flag==0){
             text += i + " - ";
         }
-            
     }
     document.getElementById("t1").innerHTML = text;
 }
