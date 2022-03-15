@@ -16,10 +16,14 @@ a {
 a:visited {
     color: blueviolet;
 }
-button {
-    font-family: Verdana;
-    size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 119, 198);
-    transition: none;
+.title {
+    font-family: titr;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 15px 15px 30px gray;
+}
+.title2 {
+    font-family: nazanin;
+    text-align: center;
+    font-size: 30px;
 }
