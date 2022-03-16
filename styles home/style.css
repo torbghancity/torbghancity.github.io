@@ -23,9 +23,13 @@ a:visited {
     text-shadow: 15px 15px 30px gray;
 }
 .title2 {
+    position: relative;
+    top: 20px;
+    right: 150px;
     font-family: nazanin;
     text-align: center;
     font-size: 30px;
+    border: 10px dotted;
 }
 .Menu {
     width: 100%;
