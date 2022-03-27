@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نام کاربری</title>
+</head>
+<body>
+    <input type="text" id="username" placeholder="نام کاربری خود را وارد کنید" >
+    <br>
+    <input type="text" id="password" placeholder="رمز عبور خود را وارد کنید">
+    <script>
+        function t2(){
+            var user = String (document.getElementById(username).value);
+            var pass =String  (document.getElementById(password).value);
+            document.getElementById("t1").innerHTML = user + " " + pass;
+        }    
+    </script>
+    <br>
+    <button type="button" onclick="t2()">بزنید</button>
+    <p id="t1"></p>
+</body>
+</html>
