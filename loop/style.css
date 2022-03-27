@@ -1,6 +1,12 @@
-a {
-    color: blue;
-}
-a:visited {
-    color: red;
-}
+a:link, a:visited {
+    background-color: #a05c3c;
+    color: #e6bb24;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #002d00;
+  }
