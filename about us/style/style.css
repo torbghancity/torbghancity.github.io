@@ -1,6 +1,26 @@
 .about{
     text-align: center;
 }
+.rpic{
+    width: 150px;
+    height: 200px;
+}
+.rezaei{
+    text-align: center;
+}
+.rz{
+    font-size: 30px;
+}
+.salari{
+    text-align: center;
+}
+.sr{
+    font-size: 30px;
+}
+.back{
+    font-size: 20px;
+    color:forestgreen;
+}
 body{
     background-color: aqua;
 }
