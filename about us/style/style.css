@@ -1,26 +1,47 @@
-.about{
+.header{
     text-align: center;
+    padding: 20px;
+    background-color: rgb(87, 207, 167);
+    font-family: titr;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(64, 141, 115);
+    font-size: 20px;
+    font-family: nazanin;
+    color:rgb(180, 252, 180);
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.column {
+    float: right;
+    width: 50%;
+    padding: 15px;
+    font-family: sbaran;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .rpic{
     width: 150px;
     height: 200px;
 }
-.rezaei{
-    text-align: center;
-}
-.rz{
-    font-size: 30px;
-}
-.salari{
-    text-align: center;
-}
-.sr{
-    font-size: 30px;
-}
-.back{
-    font-size: 20px;
-    color:forestgreen;
-}
 body{
     background-color: aqua;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
 }
