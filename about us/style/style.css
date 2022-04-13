@@ -28,6 +28,7 @@
     width: 50%;
     padding: 15px;
     font-family: sbaran;
+    font-size: 25px;
 }
 .row::after {
     content: "";
@@ -35,8 +36,17 @@
     clear: both;
 }
 .rpic{
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 230px;
+    border-radius: 30px;
+}
+.namer{
+    width: 200px;
+    height: 100px;
+}
+.names{
+    width: 200px;
+    height: 80px;
 }
 body{
     background-color: aqua;
