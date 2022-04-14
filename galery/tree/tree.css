@@ -1,0 +1,52 @@
+.back{
+    font-size: 25px;
+    color: black;
+}
+.tree{
+    text-align: center;
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+}
+.tree1{
+    border-radius: 45px;
+    width: 550px;
+    height: 570px;
+    margin-left: 70px;
+}
+.tree2{
+    border-radius: 45px;
+    width: 550px;
+    height: 570px;
+    margin-left: 70px;
+}
+.subnav-content {
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 200px;
+    height: 37px;
+    border-radius: 50px;
+    z-index: 1;
+    font-size: 30px;
+}
+.subnav-content a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 37px;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+.subnav-content a:hover {
+    background-color: red;
+    color: black;
+}
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+body{
+    background-color: cyan;
+}
