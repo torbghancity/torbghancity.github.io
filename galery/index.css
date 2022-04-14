@@ -8,8 +8,8 @@
     width: 100%;
     z-index: 1;
     font-size: 30px;
+    border-radius: 10px;
 }
-  
 .subnav-content a {
     float: right;
     color: white;
@@ -17,12 +17,10 @@
     width: 200px;
     text-align: center;
 }
-  
 .subnav-content a:hover {
     background-color: #eee;
     color: black;
 }
-  
   .subnav:hover .subnav-content {
     display: block;
   }
