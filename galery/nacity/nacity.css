@@ -1,0 +1,23 @@
+.city{
+    text-align: center;
+}
+.pic1{
+    border-radius: 30px;
+    width: 400px;
+    height: 700px;
+    margin-left: 50px;
+}
+.pic2{
+    border-radius: 30px;
+    width: 700px;
+    height: 700px;
+    margin-left: 50px;
+}
+.back{
+    font-size: 25px;
+    color: black;
+}
+
+body{
+    background-color: cyan;
+}
