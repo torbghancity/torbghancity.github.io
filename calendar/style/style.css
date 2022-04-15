@@ -1,0 +1,31 @@
+table.farvardin {
+    width: 25%;
+    border-collapse: collapse;
+    background-color: aquamarine;
+}
+.farvardin td ,.farvardin th {
+    padding: 15px;
+}
+.farvardin thead {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: yellow;
+}
+.farvardin td:nth-child(even) {
+    background-color: rgb(67, 252, 190);
+}
+table.ordibehesht {
+    width: 25%;
+    border-collapse: collapse;
+    background-color: rgb(12, 250, 12);
+}
+.ordibehesht td ,.ordibehesht th {
+    border: 2px solid ;
+    padding: 15px;
+    border-radius: 5%;
+}
+.ordibehesht thead {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(0, 255, 76);
+}
