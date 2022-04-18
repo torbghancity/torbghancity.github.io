@@ -1,25 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>گالری عکس های زیبا</title>
+    <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/index.css">
+    <script src="./JS/APP.JS"></script>
     <link rel="icon" href="pic/pic9.jpeg">
 </head>
 <body>
     <main>
         <header>
-            <h1 class="beuti">گالری عکس زیبا</h1>
+            <h1>گالری عکس</h1>
         </header>
+        <nav>
+            <a href="/index.html">بازگشت به خانه</a>
+            <ul>
+                <li onclick="showCategory('nature')"> عکس طبیعت</li>
+                <li onclick="showCategory('flowers')"> عکس گل ها</li>
+            </ul>
+        </nav>
+        <section id="gallery">
+            <div id="nature" class="Category">
+                <h4>عکس طبیعت</h4>
+                <ul>
+                    <li><img src="./pic/nature/1.jpeg" alt=""></li>
+                    <li><img src="./pic/nature/2.jpeg" alt=""></li>
+                    <li><img src="./pic/nature/3.jpeg" alt=""></li>
+                    <li><img src="./pic/nature/4.jpeg" alt=""></li>
+                </ul>
+            </div>
+            <div id="flowers" class="Category">
+                <h4>عکس گل ها</h4>
+                <ul>
+                    <li><img src="./pic/flowers/1.jpeg" alt=""></li>
+                    <li><img src="./pic/flowers/2.jpeg" alt=""></li>
+                    <li><img src="./pic/flowers/3.jpeg" alt=""></li>
+                    <li><img src="./pic/flowers/4.jpeg" alt=""></li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <div class="subnav-content">
-        <a href="./nacity/nacity.html">طبیعت در شهر</a>
-        <a href="./flower/flower.html">گل ها</a>
-        <a href="./tree/tree.html">درختان</a>
-        <a href="/index.html">بازگشت به خانه</a>
-    </div>
-    <img src="pic/pic9.jpeg" alt="تصویر">
+    <script>
+        document.getElementById("nature").style.display = "none";
+    </script>
 </body>
 </html>
