@@ -14,7 +14,7 @@ td , th {
 }
 
 .free {
-    background-color: red;
+    background-color: red !important;
     color: white;
 }
 .farvardin td:nth-child(even), .ordibehesht td:nth-child(even), .khordad td:nth-child(even) {
