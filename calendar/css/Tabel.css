@@ -1,0 +1,64 @@
+.farvardin, .ordibehesht, .khordad {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: aquamarine;
+    font-size: 25px;
+    
+    margin-bottom: 20px;
+}
+
+td , th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.free {
+    background-color: red !important;
+    color: white;
+}
+.farvardin td:nth-child(even), .ordibehesht td:nth-child(even), .khordad td:nth-child(even) {
+    background-color: rgb(160, 255, 160);
+}
+
+.tir, .mordad, .shahrivar {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: rgb(255, 122, 122);
+    font-size: 25px;
+    
+    margin-bottom: 20px;
+}
+
+.tir td:nth-child(even), .mordad td:nth-child(even), .shahrivar td:nth-child(even) {
+    background-color: rgb(175, 79, 79);
+}
+
+.mehr, .aban, .azar {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: orange;
+    font-size: 25px;
+    
+    margin-bottom: 20px;
+}
+
+.mehr td:nth-child(even), .aban td:nth-child(even), .azar td:nth-child(even) {
+    background-color: orangered;
+}
+
+.dai, .bahman, .esfand {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    background-color: rgb(36, 211, 255);
+    font-size: 25px;
+    
+    margin-bottom: 20px;
+}
+
+.dai td:nth-child(even), .bahman td:nth-child(even), .esfand td:nth-child(even) {
+    background-color: rgb(41, 158, 236);
+}
