@@ -1,13 +1,13 @@
 function ShowSeason(Season) {
     
-    setDisplay(Season);
+    DisplaySeason(Season);
 
     const el= document.getElementById(Season);
     el.style.display="block";
   
 }
 
-function setDisplay(Season) {
+function DisplaySeason(Season) {
     let element = document.getElementsByClassName("Season");
     
     for (i=0 ; i<element.length; i++) {
