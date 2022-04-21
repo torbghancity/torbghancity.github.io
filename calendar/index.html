@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/Tabel.css">
+    <script src="./JS/app.js"></script>
     <link rel="icon" href="image/icon.jpg">
 </head>
 <body>
@@ -18,10 +19,10 @@
         <nav>
             <a href="/index.html" class="back">بازگشت به خانه</a>
             <ul>
-                <li>بهار</li>
-                <li>تابستان</li>
-                <li>پاییز</li>
-                <li>زمستان</li>
+                <li onclick="ShowSeason('Spring')">بهار</li>
+                <li onclick="ShowSeason('Summer')">تابستان</li>
+                <li onclick="ShowSeason('Fall')">پاییز</li>
+                <li onclick="ShowSeason('Winter')">زمستان</li>
             </ul>
         </nav>
         <section>

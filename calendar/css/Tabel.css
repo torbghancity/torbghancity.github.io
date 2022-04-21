@@ -1,3 +1,13 @@
+td , th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.free {
+    background-color: red !important;
+    color: white;
+}
+
 .farvardin, .ordibehesht, .khordad {
     width: 400px;
     height: 400px;
@@ -8,15 +18,7 @@
     margin-bottom: 20px;
 }
 
-td , th {
-    text-align: center;
-    vertical-align: middle;
-}
 
-.free {
-    background-color: red !important;
-    color: white;
-}
 .farvardin td:nth-child(even), .ordibehesht td:nth-child(even), .khordad td:nth-child(even) {
     background-color: rgb(160, 255, 160);
 }

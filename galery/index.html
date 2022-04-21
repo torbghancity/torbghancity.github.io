@@ -18,8 +18,9 @@
         <nav>
             <a href="/index.html" class="back">بازگشت به خانه</a>
             <ul>
-                <li onclick="showCategory('nature')"> عکس طبیعت</li>
-                <li onclick="showCategory('flowers')"> عکس گل ها</li>
+                <li id="link-*" class="active" onclick="showCategory('*')">همه عکس ها</li>
+                <li id="link-nature" onclick="showCategory('nature')"> عکس طبیعت</li>
+                <li id="link-flowers" onclick="showCategory('flowers')"> عکس گل ها</li>
             </ul>
         </nav>
         <section id="gallery">
@@ -60,8 +61,5 @@
             </div>
         </section>
     </main>
-    <script>
-        document.getElementById("nature").style.display = "none";
-    </script>
 </body>
 </html>
