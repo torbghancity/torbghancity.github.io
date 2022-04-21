@@ -33,13 +33,30 @@ nav ul li:hover{
     cursor: pointer;
 }
 
-.row {
-    margin-left: 5px;
-    margin-right: 5px;
+.flex-container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-    
-.column {
-    float: right;
-    
-    padding: 5px;
+
+.flex-item
+{
+  width: 100px;
+  margin: 5px;
 }
+
+.flex-containersub
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-itemsub {
+    width: 400px;
+    margin: 5px;
+}
+
+

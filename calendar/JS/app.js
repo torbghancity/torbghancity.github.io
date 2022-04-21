@@ -1,11 +1,17 @@
 function ShowSeason(Season) {
     
-    document.getElementById("Spring").style.display = "none";
-    document.getElementById("Summer").style.display = "none";
-    document.getElementById("Fall").style.display = "none";
-    document.getElementById("Winter").style.display = "none";
+    setDisplay(Season);
 
     const el= document.getElementById(Season);
     el.style.display="block";
+  
+}
+
+function setDisplay(Season) {
+    let element = document.getElementsByClassName("Season");
+    
+    for (i=0 ; i<element.length; i++) {
+        element[i].style.display="none";
+     }
 
 }
