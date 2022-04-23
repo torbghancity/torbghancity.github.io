@@ -42,7 +42,7 @@ nav ul li:hover{
 
 .flex-item
 {
-  width: auto;
+  width: 100px;
   margin: 5px;
   align-content:center;
 }
