@@ -42,8 +42,9 @@ nav ul li:hover{
 
 .flex-item
 {
-  width: 100px;
+  width: auto;
   margin: 5px;
+  align-content:center;
 }
 
 .flex-containersub

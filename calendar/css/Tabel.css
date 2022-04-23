@@ -21,7 +21,7 @@ td , th {
     background-color: rgb(160, 255, 160);
 }
 
-.farvardinsub, .ordibeheshtsub, .khordadsub {
+#farvardin, #ordibehesht, #khordad {
     width: 400px;
     height: 400px;
     border-collapse: collapse;
@@ -30,7 +30,7 @@ td , th {
     margin-bottom: 20px;
 }
 
-.farvardinsub td:nth-child(even), .ordibeheshtsub td:nth-child(even), .khordadsub td:nth-child(even) {
+#farvardin td:nth-child(even), #ordibehesht td:nth-child(even), #khordad td:nth-child(even) {
     background-color: rgb(160, 255, 160);
 }
 
