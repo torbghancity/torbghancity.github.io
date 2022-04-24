@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/Tabel.css">
-    <script src="./JS/app.js"></script>
+    <script src="./JS/show.js"></script>
     <link rel="icon" href="image/icon.jpg">
 </head>
 <body>
@@ -230,7 +230,7 @@
 
                 <div class="flex-containersub">
                     <div class="flex-itemsub">
-                        <table id="farvardin"  class="Month">
+                        <table id="farvardin" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">فروردین 1401</th>
@@ -431,7 +431,7 @@
             <div id="Summer" class="Season">
 
                 <div class="flex-container">
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('tir')" class="flex-item">
                         <table class="tir">
                             <thead>
                                 <tr>
@@ -496,7 +496,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('mordad')" class="flex-item">
                         <table class="mordad">
                             <thead>
                                 <tr>
@@ -561,7 +561,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('shahrivar')" class="flex-item">
                         <table class="shahrivar">
                             <thead>
                                 <tr>
@@ -630,7 +630,7 @@
     
                 <div class="flex-containersub">
                     <div class="flex-itemsub">
-                        <table class="tirsub">
+                        <table id="tir" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">تیر 1401</th>
@@ -695,7 +695,7 @@
                         </table>
                     </div>
                     <div class="flex-itemsub">
-                        <table class="mordadsub">
+                        <table id="mordad" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">مرداد 1401</th>
@@ -760,7 +760,7 @@
                         </table>
                     </div>
                     <div class="flex-itemsub">
-                        <table class="shahrivarsub">
+                        <table id="shahrivar" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">شهریور 1401</th>
@@ -831,7 +831,7 @@
             <div id="Fall" class="Season">
 
                 <div class="flex-container">
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('mehr')" class="flex-item">
                         <table class="mehr">
                             <thead>
                                 <tr>
@@ -896,7 +896,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('aban')" class="flex-item">
                         <table class="aban">
                             <thead>
                                 <tr>
@@ -961,7 +961,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('azar')" class="flex-item">
                         <table class="azar">
                             <thead>
                                 <tr>
@@ -1030,7 +1030,7 @@
     
                 <div class="flex-containersub">
                     <div class="flex-itemsub">
-                        <table class="mehrsub">
+                        <table id="mehr" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">مهر 1401</th>
@@ -1095,7 +1095,7 @@
                         </table>
                     </div>
                     <div class="flex-itemsub">
-                        <table class="abansub">
+                        <table id="aban" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">آبان 1401</th>
@@ -1160,7 +1160,7 @@
                         </table>
                     </div>
                     <div class="flex-itemsub">
-                        <table class="azarsub">
+                        <table class="Month" id="azar">
                             <thead>
                                 <tr>
                                     <th colspan="7">آذر 1401</th>
@@ -1231,7 +1231,7 @@
             <div id="Winter" class="Season">
 
                 <div class="flex-container">
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('dai')" class="flex-item">
                         <table class="dai">
                             <thead>
                                 <tr>
@@ -1296,7 +1296,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('bahman')" class="flex-item">
                         <table class="bahman">
                             <thead>
                                 <tr>
@@ -1361,7 +1361,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex-item">
+                    <div onclick="ShowMonth('esfand')" class="flex-item">
                         <table class="esfand">
                             <thead>
                                 <tr>
@@ -1430,7 +1430,7 @@
                 
                 <div class="flex-containersub">
                     <div class="flex-itemsub">
-                        <table class="daisub">
+                        <table id="dai" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">دی 1401</th>
@@ -1495,7 +1495,7 @@
                         </table>
                     </div>
                     <div class="flex-itemsub">
-                        <table class="bahmansub">
+                        <table class="Month" id="bahman">
                             <thead>
                                 <tr>
                                     <th colspan="7">بهمن 1401</th>
@@ -1560,7 +1560,7 @@
                         </table>
                     </div>
                     <div class="flex-itemsub">
-                        <table class="esfandsub">
+                        <table id="esfand" class="Month">
                             <thead>
                                 <tr>
                                     <th colspan="7">اسفند 1401</th>
@@ -1629,5 +1629,10 @@
             </div>
         </section>
     </main>
+    <script>
+        day=new Date()
+        shamsi=showDate(day);
+        document.write(shamsi[0]+'/'+shamsi[1]+'/'+shamsi[2]);
+    </script>
 </body>
 </html>
