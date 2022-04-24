@@ -70,9 +70,53 @@ function showDate(date) {
 
 function FindMonth(Month) {
 
-    if (Month==2){
-        ShowMonth('ordibehesht');
-        ShowSeason('Spring');
+    switch (Month) {
+        case 1:
+            ShowMonth('farvardin');
+            ShowSeason('Spring');
+          break;
+        case 2:
+            ShowMonth('ordibehesht');
+            ShowSeason('Spring');
+          break;
+        case 3:
+            ShowMonth('khordad');
+            ShowSeason('Spring');
+          break;
+        case 4:
+          ShowMonth('tir');
+            ShowSeason('Summer');
+          break;
+        case 5:
+          ShowMonth('mordad');
+            ShowSeason('Summer');
+          break;
+        case 6:
+          ShowMonth('shahrivar');
+            ShowSeason('Summer');
+          break;
+        case 7:
+          ShowMonth('mehr');
+            ShowSeason('Fall');
+          break;       
+        case 8:
+          ShowMonth('aban');
+            ShowSeason('Fall');
+            break;
+        case 9:
+          ShowMonth('azar');
+            ShowSeason('Fall');
+            break;
+        case 10:
+          ShowMonth('dai');
+            ShowSeason('Winter');
+            break;
+        case 11:
+          ShowMonth('bahman');
+            ShowSeason('Winter');
+            break;
+        case 12:
+          ShowMonth('esfand');
+            ShowSeason('Winter');
     }
-    
 }
