@@ -1,0 +1,46 @@
+@font-face {
+    font-family: about;
+    src: url(SKOODKBD.TTF);
+}
+@font-face {
+    font-family: nature;
+    src: url(SSHIRAZ.TTF);
+}
+@font-face {
+    font-family: nature1;
+    src: url(SSARA.TTF);
+}
+.about{
+    text-align: center;
+    font-family: about;
+    font-size: 25px;
+}
+.pic1{
+    width: 450px;
+    height: 600px;
+    border-radius: 50px;
+}
+.nature{
+    float: left;
+    margin-left: 300px;
+    font-family: nature;
+}
+.kashmar{
+    float: left;
+    margin-top: -520px;
+    font-size: 19px;
+    font-family: about;
+}
+.nature1{
+    float: left;
+    margin-left: 300px;
+    margin-top: -400px;
+    clear: both;
+    font-family: nature1;
+}
+.na1{
+    float: left;
+    margin-top: -350px;
+    font-family: about;
+    font-size: 18px;
+}
