@@ -33,6 +33,17 @@ nav ul li:hover{
     cursor: pointer;
 }
 
+nav ul li.active{
+    background-color: #2933bd;
+    border-radius: 0 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.actbtn {
+    background-color: #d61919;
+}
+
 .flex-container
 {
   display: flex;

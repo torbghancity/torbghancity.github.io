@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/Tabel.css">
-    <script src="./JS/show.js"></script>
     <link rel="icon" href="image/icon.jpg">
 </head>
 <body>
@@ -19,10 +18,15 @@
         <nav>
             <a href="/index.html" class="back">بازگشت به خانه</a>
             <ul>
-                <li onclick="ShowSeason('Spring')">بهار</li>
-                <li onclick="ShowSeason('Summer')">تابستان</li>
-                <li onclick="ShowSeason('Fall')">پاییز</li>
-                <li onclick="ShowSeason('Winter')">زمستان</li>
+                <button data-category="Spring" class="actbtn">بهار</button>
+                <button data-category="Summer">تابستان</button>
+                <button data-category="Fall">پاییز</button>
+                <button data-category="Winter">زمستان</button>
+                
+                <li id="link-Spring" onclick="ShowSeason('Spring')" class="active">بهار</li>
+                <li id="link-Summer" onclick="ShowSeason('Summer')">تابستان</li>
+                <li id="link-Fall" onclick="ShowSeason('Fall')">پاییز</li>
+                <li id="link-Winter" onclick="ShowSeason('Winter')">زمستان</li>
             </ul>
         </nav>
         <section>
@@ -1629,7 +1633,7 @@
             </div>
         </section>
     </main>
-    <script>
+    <script src="./JS/show.js">
         day=new Date()
         shamsi=showDate(day);
         document.write(shamsi[0]+'/'+shamsi[1]+'/'+shamsi[2]);

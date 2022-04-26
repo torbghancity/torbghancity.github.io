@@ -1,9 +1,11 @@
 function ShowSeason(Season) {
-    
-    DisplaySeason(Season);
 
-    const el= document.getElementById(Season);
-    el.style.display="block";
+  setActive(Season)
+    
+  DisplaySeason(Season);
+
+  const el= document.getElementById(Season);
+  el.style.display="block";
   
 }
 
@@ -33,6 +35,24 @@ function DisplayMonth(Month) {
         element[i].style.display="none";
     }
 
+}
+
+function setActive(cat){
+  let elements = document.getElementsByClassName("active");
+  for(let i = 0; i < elements.length; i++){
+      elements[i].classList.remove("active");
+  }
+
+  let element = document.getElementById("link-" + cat);
+  element.classList.add("active");
+
+  let btn = document.getElementsByTagName("button");
+  
+  
+  for(let i = 0; i < btn.length; i++){
+      btn[i].classList.remove("actbtn");
+  }
+ 
 }
 
 function showDate(date) {
@@ -119,4 +139,16 @@ function FindMonth(Month) {
           ShowMonth('esfand');
             ShowSeason('Winter');
     }
+}
+
+let elements = document.getElementsByTagName("button");
+ 
+for(let i = 0 ; i<elements.length;i++)
+ {
+    elements[i].addEventListener("click",btnClicked)
+}
+function btnClicked(e){
+    let cat = e.target.dataset.category;
+    ShowSeason(cat)
+    e.target.classList.add("actbtn");
 }
