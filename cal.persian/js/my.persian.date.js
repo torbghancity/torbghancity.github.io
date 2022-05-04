@@ -38,19 +38,24 @@ function renderCalendar (History){
         days += `<div class="next-date">${j}</div>`
         monthDays.innerHTML = days
     }
+
+    console.log(date.calendar());
 }
 
-
+const  h = new Date()
 document.querySelector('.next').addEventListener('click',()=>{
-    //renderCalendar(new Date().getMonth()+1);
+    
+    h.setMonth(h.getMonth()+1);
+    renderCalendar(h);
 })
 
 document.querySelector('.prev').addEventListener('click',()=>{
     
+    h.setMonth(h.getMonth()-1);
+    renderCalendar(h);
 })
 
 renderCalendar();
 
-const  h = new Date()
 
-console.log(h.setMonth(h.getMonth()-1))
+console.log()
