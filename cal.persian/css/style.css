@@ -20,7 +20,7 @@ html {
 }
 
 .calendar {
-    width: 45rem;
+    width: 35rem;
     height: 52rem;
     background-color: #222227;
     box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
@@ -67,7 +67,7 @@ html {
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 0.1rem;
-    width: calc(46.2rem/7);
+    width: calc(35.2rem/7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ html {
 .days div {
     font-size: 1.4rem;
     margin: 0.3rem;
-    width: calc(40.2rem/7);
+    width: calc(25.2rem/7);
     height: 5rem;
     display: flex;
     justify-content: center;
