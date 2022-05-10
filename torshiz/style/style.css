@@ -10,6 +10,11 @@
     font-family: nature1;
     src: url(SSARA.TTF);
 }
+
+.democlass h2 ,.democlass p {
+    font-size: 50px !important;
+}
+
 .about{
     text-align: center;
     font-family: about;
@@ -54,7 +59,7 @@
 .na3{
     float: left;
     font-family: about;
-   
+    font-size: 18px;
     margin-top: 10px;
 }
 .na4{
@@ -64,4 +69,6 @@
     font-size: 18px;
     margin-left: 300px;
 }
+
+
 
