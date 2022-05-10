@@ -1,5 +1,3 @@
 function size() {
-    let d=document.getElementById("s1");
-    console.log(d.style.background="red");
-    
+    let d=document.getElementById("s1").style.fontSize="5rem" ;
 }
