@@ -69,9 +69,23 @@
     color: blue;
     font-family: about;
     background-color: red;
-    transition: all 2s;
+    transition: all 5s;
     border-radius: 20px;
+    border-color: pink;
+    cursor: pointer;
 }
-
+.Religion{
+    color: darkmagenta;
+    text-align: center;
+    width: 100%;
+    height: 42px;
+    margin-top: 60px;
+    background-color: aqua;
+    clear: both;
+}
+.Religion1{
+    font-size: 20px;
+    text-align: center;
+}
 
 
