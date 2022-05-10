@@ -12,7 +12,7 @@
 }
 
 .democlass h2 ,.democlass p {
-    font-size: 50px !important;
+    font-size: 20px !important;
 }
 
 .about{
@@ -24,22 +24,25 @@
     width: 450px;
     height: 600px;
     border-radius: 50px;
+    margin-top: -20px;
 }
 .nature{
     float: left;
     margin-left: 300px;
     font-family: nature;
+    font-size: 25px;
+    margin-top: -20px;
 }
 .kashmar{
     float: left;
-    margin-top: -520px;
+    margin-top: -630px;
     font-size: 19px;
     font-family: about;
 }
 .nature1{
     float: left;
     margin-left: 300px;
-    margin-top: -400px;
+    margin-top: -500px;
     clear: both;
     font-family: nature1;
 }
@@ -50,24 +53,24 @@
     font-size: 18px;
 }
 .na2{
-    float: right;
-    margin-top: -50px;
+    float: right; 
+    clear: both;
     font-family: about;
     font-size: 18px;
-    margin-right: 655px;
+    margin-right: 635px;
 }
-.na3{
-    float: left;
-    font-family: about;
-    font-size: 18px;
-    margin-top: 10px;
-}
-.na4{
+.button{
     float: right;
-    margin-top: -0px;
-    font-family: nature;
-    font-size: 18px;
-    margin-left: 300px;
+    width: 400px;
+    font-size: 20px;
+    clear: both;
+}
+.button:hover{
+    color: blue;
+    font-family: about;
+    background-color: red;
+    transition: all 2s;
+    border-radius: 20px;
 }
 
 
