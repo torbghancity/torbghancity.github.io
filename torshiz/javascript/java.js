@@ -1,4 +1,5 @@
 function size() {
-    document.getElementById("s1").style.fontSize="23px";
-    document.getElementsByClassName('div').style.fontSize="50px";
+    let d=document.getElementById("s1");
+    console.log(d.style.background="red");
+    
 }
