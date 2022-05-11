@@ -17,10 +17,24 @@
 .demclass h2,.demclass p{
     font-size: 30px !important;
 }
+.select{
+    width: 100px;
+}
 .about{
     text-align: center;
     font-family: about;
     font-size: 25px;
+    transition: font-size 2s ,background-color 5s , color 2s , border-radius 2s;
+}
+.about:hover{
+    text-shadow: 15px 10px 15px rgb(71, 71, 70);
+    color: rgb(255, 250, 255);
+    font-size: 30px;
+    height: 70%;
+    width: 90%;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: forestgreen;
 }
 .pic1{
     width: 350px;
