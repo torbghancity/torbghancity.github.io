@@ -17,6 +17,9 @@
 .demclass h2,.demclass p{
     font-size: 30px !important;
 }
+.demss h2.dess p{
+    font-size: 30px !important;
+}
 .select{
     width: 100px;
 }
@@ -146,4 +149,36 @@
     border-radius: 20px;
     border-color: rgb(192, 221, 255);
     cursor: pointer;
+}
+.linka{
+    font-size: 25px;
+    float: left;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    Text-decoration:none;
+}
+.Ceremony{
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;
+    height: 30px;
+    background-color: blue;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.Ceremony1{
+    text-align: center;
+}
+.haft{
+    width: 400px;
+    margin-top: -150px;
+    border-radius: 5px;
+}
+.sabzeh{
+    float: left;
+    width: 400px;
+    margin-top: -150px;
+    border-radius: 5px;
+    height: 280px;
 }
