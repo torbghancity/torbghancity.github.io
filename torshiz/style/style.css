@@ -12,9 +12,11 @@
 }
 
 .democlass h2 ,.democlass p {
-    font-size: 20px !important;
+    font-size: 21px !important;
 }
-
+.demclass h2,.demclass p{
+    font-size: 30px !important;
+}
 .about{
     text-align: center;
     font-family: about;
@@ -87,5 +89,47 @@
     font-size: 19px;
     text-align: center;
 }
+.Religion2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+.pichamzah{
+    float: left;
+    width: 100px;
+    margin-top: -230px;
+    margin-left: 570px;
+    border-radius: 9px;
+}
 
-
+.picmorteza{
+    float: left;
+    width: 100px;
+    margin-top: -150px;
+    margin-left: 570px;
+    border-radius: 9px;
+}
+.picmohammad{
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 570px;
+    border-radius: 9px;
+    clear: both;
+}
+.fontsd{
+    float: right;
+    width: 300px;
+    font-size: 20px;
+    clear: both;
+}
+.fontsd:hover{
+    color: rgb(0, 255, 145);
+    font-family: about;
+    background-color: rgb(34, 0, 255);
+    transition: all 2s;
+    border-radius: 20px;
+    border-color: rgb(192, 221, 255);
+    cursor: pointer;
+}
