@@ -13,5 +13,5 @@ function carw(){
     document.getElementById("s3").setAttribute("dess","demss");
     document.getElementById("s3").style.fontSize="25px";
     console.log("carw");
-    document.getElementById("s3").style.display="none";
+    document.getElementById("s4").style.display="none";
 }
