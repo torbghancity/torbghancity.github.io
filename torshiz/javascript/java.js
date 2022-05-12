@@ -11,7 +11,7 @@ function font(){
 }
 function carw(){
     document.getElementById("s3").setAttribute("dess","demss");
-    document.getElementById("s3").style.fontSize="25px";
+    document.getElementById("s3").style.fontSize="500px";
     console.log("carw");
     document.getElementById("s3").style.display="none";
 }
