@@ -192,5 +192,19 @@
     border-radius: 20px;
 }
 .Agriculture1{
-    
+    text-align: center;
+}
+.rivas{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-top: -150px;
+    border-radius: 5px;
+}
+.gandom{
+    width: 100%;
+}
+.joo{
+    margin-right: 120px;
+    border-radius: 5px;
 }
