@@ -17,8 +17,8 @@
 .demclass h2,.demclass p{
     font-size: 30px !important;
 }
-.demss h2.dess p{
-    font-size: 30px !important;
+.demss h2 ,.demss p{
+    font-size: 50px !important;
 }
 .select{
     width: 100px;
